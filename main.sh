@@ -15,7 +15,7 @@ echo [+] --- Virtual Enviroment activated ---
 pip install Flask
 echo [+] --- Flask installed ---
 
-cp -r ~/workspace/cflask/files/src ./
+cp -r ~/cflask/files/src ./
 echo [+] --- Files has reated ---
 ls | batcat --theme=TwoDark
 tree src/ | batcat --theme=TwoDark
